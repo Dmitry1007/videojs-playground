@@ -4,8 +4,8 @@ React WebPack Boilerplate
 ### Setting Up
 
 ```
-git clone this-repo
-cd this-repo
+git clone git@github.com:Dmitry1007/react-webpack-base-boilerplate.git
+cd react-webpack-base-boilerplate
 npm install
 npm start
 open http://localhost:8080/
