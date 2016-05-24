@@ -2,11 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Base React Template</title>
+    <link href="http://vjs.zencdn.net/5.10.2/video-js.css" rel="stylesheet">
+
+    <title>VideoJS Playground</title>
   </head>
   <body>
     <div id="app">
     </div>
+
+    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"  poster="denver_night.jpg" data-setup="{}">
+      <source src="denver-night-time-lapse.mp4" type='video/mp4'>
+      <source src="MY_VIDEO.webm" type='video/webm'>
+      <p class="vjs-no-js">
+        <a href="http://videojs.com/html5-video-support/" target="_blank"></a>
+      </p>
+    </video>
+
+    <script src="http://vjs.zencdn.net/5.10.2/video.js"></script>
 
     <script src="./bundle.js"></script>
   </body>
